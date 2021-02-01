@@ -1,0 +1,14 @@
+.progressWrapper { 
+    background: #fff;
+    height: 100%;
+    position: relative;    
+    width: 100%;    
+    z-index: 9999;    
+}
+.progressWrapper > div {   
+    left: 0;
+    margin: auto;        
+    position: fixed;    
+    right: 0;    
+    top: 0%;
+}

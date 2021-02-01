@@ -1,0 +1,43 @@
+/*@import '~antd/dist/antd.css';*/
+button:focus {
+    outline: none !important;
+}
+p {
+    margin-top: revert !important;
+}
+.MuiTypography-root {
+    margin-top: 0 !important;
+}
+
+.authBackdrop {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.54), rgba(44, 62, 80, 0.39)), 
+        url(https://rut-miit.ru/resources/img/registration.jpg) no-repeat 0 40%;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1 !important;
+}
+.authDialog .modal-content {
+    background-color: transparent; 
+    border: none;
+}
+.authDialog .modal-header,
+.authDialog .modal-body {
+    background-color: #fff;    
+}
+.authDialog .modal-header {
+    border-radius: 0.3rem 0.3rem 0rem 0rem;
+}
+.authDialog .modal-body {
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+}
+.authDialog .authWindowHeader {    
+    color: #fff;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;    
+}
+.modal-title {
+    display: flex;
+    width: 100%;
+}

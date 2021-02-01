@@ -1,0 +1,6 @@
+.modalTitleText {
+    flex-grow: 1;
+}
+.modalTitleIcon {
+    display: flex;
+}
